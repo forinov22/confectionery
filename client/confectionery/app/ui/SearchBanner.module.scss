@@ -1,0 +1,42 @@
+// SearchBanner.module.scss
+
+.search-banner {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 1rem; /* Space around the banner */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 2rem; /* Space below the banner */
+}
+
+.search-form {
+  display: flex; /* Flex layout for input and button */
+  align-items: center; /* Center items vertically */
+}
+
+.search-input {
+  flex: 1; /* Allow input to take available space */
+  padding: 0.5rem; /* Space inside input */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 1rem; /* Font size */
+  margin-right: 0.5rem; /* Space between input and button */
+
+  &:focus {
+    outline: none; /* Remove outline */
+    border-color: #007bff; /* Highlight border on focus */
+  }
+}
+
+.search-button {
+  padding: 0.5rem 1rem; /* Space inside button */
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+
+  &:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+  }
+}

@@ -1,0 +1,30 @@
+.sidebar {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  a {
+    display: block; // Makes the links stack vertically
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+    font-weight: bold;
+
+    .active {
+      background-color: #ff4b4b;
+    }
+
+    &:hover {
+      background-color: #ff4b4b;
+      color: #fff;
+    }
+  }
+}
+
